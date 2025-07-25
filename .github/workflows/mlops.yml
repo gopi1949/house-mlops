@@ -23,4 +23,4 @@ jobs:
         pip install pandas numpy scikit-learn xgboost
 
     - name: Run training script
-      run: python model/train.py# CI/CD workflow will go here
+      run: python model/train.py
